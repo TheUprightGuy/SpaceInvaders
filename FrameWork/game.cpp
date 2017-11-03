@@ -72,8 +72,6 @@ CGame::Draw()
     m_pBackBuffer->Clear();
 
 // Do all the game’s drawing here...
-	m_PlayerShip->Draw();
-
     m_pBackBuffer->Present();
 }
 
