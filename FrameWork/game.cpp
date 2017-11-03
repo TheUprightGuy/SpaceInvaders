@@ -26,7 +26,6 @@
 
 // Static Variables
 CGame* CGame::s_pGame = 0;
-CSprite* m_PlayerShip = 0;
 // Static Function Prototypes
 
 // Implementation
@@ -52,9 +51,6 @@ CGame::~CGame()
 bool
 CGame::Initialise(HINSTANCE _hInstance, HWND _hWnd, int _iWidth, int _iHeight)
 {
-	m_PlayerShip = new CSprite;
-	VALIDATE(m_PlayerShip->Initialise(IDB_SHIP, IDB_SHIPMASK));
-
     m_hApplicationInstance = _hInstance;
     m_hMainWindow = _hWnd;
 
