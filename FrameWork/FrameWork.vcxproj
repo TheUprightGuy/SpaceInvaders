@@ -157,6 +157,7 @@
     <ClInclude Include="clock.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="ship.h" />
     <ClInclude Include="sprite.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
@@ -164,9 +165,8 @@
     <ResourceCompile Include="SpaceInvaders.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Pictures\ship.bmp" />
-    <Image Include="..\..\..\..\pictures\ship1.bmp" />
-    <Image Include="..\..\..\..\Pictures\unnamed.png" />
+    <Image Include="ship.bmp" />
+    <Image Include="shipmask.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

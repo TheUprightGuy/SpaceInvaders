@@ -50,6 +50,9 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SpaceInvaders.rc">
@@ -57,13 +60,10 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Pictures\unnamed.png">
+    <Image Include="ship.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Pictures\ship.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\pictures\ship1.bmp">
+    <Image Include="shipmask.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

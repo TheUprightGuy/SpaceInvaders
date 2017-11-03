@@ -20,6 +20,7 @@
 
 // Local Includes
 #include "clock.h"
+#include "ship.h"
 
 // Types
 
@@ -72,7 +73,6 @@ protected:
     static CGame* s_pGame;
 
 private:
-
 };
 
 #endif    // __GAME_H__
